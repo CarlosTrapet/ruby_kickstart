@@ -1,3 +1,11 @@
+#Carlos Trapet
+def ten_twenty(n)
+  if n.even? == true then 10
+  else 20
+  end
+end
+
+#==========
 #paul fitz
 def ten_twenty(n)
 	if n % 2 == 0

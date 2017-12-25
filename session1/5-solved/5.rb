@@ -1,3 +1,14 @@
+#Carlos Trapet
+def add_more_ruby(string)
+  string.gsub! "sad", "happy"
+  string.gsub! "Sad", "Happy"
+  return string
+end
+
+# Carlos: any way of doing message["sad"] = "happy" several times, like message["sad"].each ???
+
+#============
+
 #Josh Cheek
 def add_more_ruby(string)
   string.gsub('sad', 'happy').gsub('Sad', 'Happy')

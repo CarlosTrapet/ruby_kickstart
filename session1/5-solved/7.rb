@@ -1,3 +1,18 @@
+#Carlos Trapet
+def pirates_say_arrrrrrrrr(string)
+  result = Array.new
+  string.size.times do |item|
+    if string[item] == 'r' || string[item] == 'R'
+      result << string[item + 1]
+  end
+end
+result.join
+end
+
+#check if useful: create a conditional for each |char| if == r => next
+
+#===========
+
 #paul fitz
 def pirates_say_arrrrrrrrr(string)
 	answer = ""

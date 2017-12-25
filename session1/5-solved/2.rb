@@ -1,3 +1,15 @@
+#Carlos Trapet
+
+def arithmetic2(a, b)
+	if a < b
+	  a/2.to_f
+	else
+	  b/2.to_f
+	end
+end
+
+
+#=======
 #paul fitz
 def arithmetic2(a, b)
 	if a < b

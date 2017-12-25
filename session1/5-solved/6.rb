@@ -1,3 +1,16 @@
+#Carlos Trapet
+def odds_and_evens(string, return_odds)
+  result = Array.new
+  string.size.times do |item|
+  next if return_odds == true && item.even? == true
+  next if return_odds == false && item.odd? == true 
+  result << string[item]
+end
+result.join
+end
+
+#=========
+
 #paul fitz
 def odds_and_evens(string, return_odds)
   to_return = ""

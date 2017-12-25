@@ -1,3 +1,12 @@
+#Carlos Trapet
+
+def arithmetic1(n)
+  n * 5 - 20
+end
+
+# if we use "puts" it will print out the correct answer but the value will be nil
+
+# ======
 #Josh Cheek
 def arithmetic1(n)
   n*5-20
